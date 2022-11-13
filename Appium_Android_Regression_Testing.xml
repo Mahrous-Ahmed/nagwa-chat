@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nagwa Chat Regression Testing " >
+
+    <parameter name="browserstack.user" value=""/>
+    <parameter name="browserstack.key" value=""/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="8C9Y15JGY"/>
+    <parameter name="device" value="Pixel 3 XL"/>
+    <parameter name="os_version" value="11"/>
+    <parameter name="app" value="F:\NagwaChat\APKs\app-google-beta (11).apk"/>
+    <parameter name="project" value=""/>
+    <parameter name="build" value=""/>
+    <parameter name="name" value=""/>
+    <parameter name="url" value="http://0.0.0.0:4723/wd/hub"/>
+
+
+    <test name="Nagwa Chat Send And Receive Text">
+
+        <classes>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator"/>
+            <class name="Chat_Group_Tests.Open_Chat_group"/>
+            <class name="Send_Messages_Tests.Send_English_Text">
+                <parameter name="Timezone" value="GMT+2"/>
+            </class>
+            <class name="Send_Messages_Tests.Send_Arabic_Text">
+                <parameter name="Timezone" value="GMT+2"/>
+            </class>
+            <class name="Send_Messages_Tests.Send_Numbers">
+                <parameter name="Timezone" value="GMT+2"/>
+            </class>
+            <class name="Send_Messages_Tests.Send_MathSymbols">
+                <parameter name="Timezone" value="GMT+2"/>
+            </class>
+            <class name="Send_Messages_Tests.Send_Emojis">
+                <parameter name="Timezone" value="GMT+2"/>
+            </class>
+
+            <class name="Sign_Out_Tests.Sign_Out"/>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Student"/>
+            <class name="Receive_Messages_Tests.Open_Chat_group"/>
+            <class name="Receive_Messages_Tests.Receive_English_Text"/>
+            <class name="Receive_Messages_Tests.Receive_Arabic_Text"/>
+            <class name="Receive_Messages_Tests.Receive_Numbers_Text"/>
+            <class name="Receive_Messages_Tests.Receive_Math_Symbols"/>
+            <class name="Receive_Messages_Tests.Receive_Emojis_Text"/>
+        </classes>
+
+    </test>
+
+    <test name="Send And Receive photos">
+        <classes>
+            <class name="Send_Photo_Tests.Send_Single_Photo">
+                <parameter name="Timezone" value="GMT+2"/>
+            </class>
+            <class name="Send_Photo_Tests.View_Last_Photo"/>
+            <class name="Sign_Out_Tests.Sign_Out"/>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator"/>
+            <class name="Chat_Group_Tests.Open_Chat_group"/>
+            <class name="Receive_photo_Tests.Receive_Single_Photo"/>
+            <class name="Receive_photo_Tests.View_Last_Photo"/>
+        </classes>
+    </test>
+
+
+    <test name="Send And Receive Audio">
+
+        <classes>
+            <class name="Chat_Group_Tests.Open_Chat_group"/>
+            <class name="Send_Audio_Tests.Send_Audio">
+                <parameter name="Timezone" value="GMT+2"/>
+            </class>
+            <class name="Send_Audio_Tests.Cancel_Audio_Record_Test"/>
+            <class name="Send_Audio_Tests.Playback_Audio_sent"/>
+            <class name="Sign_Out_Tests.Sign_Out"/>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Student"/>
+            <class name="Chat_List_Tests.Open_Chat_group"/>
+            <class name="Receive_Audio_Test.Receive_Audio"/>
+            <class name="Receive_Audio_Test.Playback_Audio_received"/>
+        </classes>
+
+    </test>
+</suite>

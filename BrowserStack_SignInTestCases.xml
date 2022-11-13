@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nagwa Chat Regression Testing " >
+
+    <parameter name="browserstack.user" value="nagwalimited_jARDop"/>
+    <parameter name="browserstack.key" value="x7cx1kH9TJasNYmh4RHH"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value=""/>
+    <parameter name="device" value="Google Pixel 3 XL"/>
+    <parameter name="os_version" value="9.0"/>
+    <parameter name="app" value="bs://3ccc3512f8e2d398e35d08175dcf28135fc4c64a"/>
+    <parameter name="project" value="Nagwa Chat"/>
+    <parameter name="build" value="Nagwa chat regression"/>
+    <parameter name="name" value="Mohamed Eloufy"/>
+    <parameter name="url" value="http://hub.browserstack.com/wd/hub"/>
+
+    <test name="Nagwa Chat Sign In Test Cases">
+     <classes>
+         <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Invalid_UserName"/>
+         <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Empty_UserName"/>
+         <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_with_Invalid_Password">
+             <parameter name="ValidUserName" value="6e22b"/>
+         </class>
+         <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Empty_Password">
+             <parameter name="ValidUserName" value="6e22b"/>
+         </class>
+         <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Student"/>
+     </classes>
+
+    </test>
+</suite>

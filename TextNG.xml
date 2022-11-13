@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nagwa Chat browser stack" >
+    <parameter name="browserstack.user" value=""/>
+    <parameter name="browserstack.key" value=""/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="8C9Y15JGY"/>
+    <parameter name="device" value="Pixel 3 XL"/>
+    <parameter name="os_version" value="11"/>
+    <parameter name="app" value="F:\NagwaChat\APKs\app-google-beta (8).apk"/>
+    <parameter name="project" value=""/>
+    <parameter name="build" value=""/>
+    <parameter name="name" value=""/>
+    <parameter name="url" value="http://0.0.0.0:4723/wd/hub"/>
+
+     <!--<test name="Nagwa Chat Test android browserstack">
+        <parameter name="browserstack.user" value="nagwalimited_jARDop"/>
+        <parameter name="browserstack.key" value="x7cx1kH9TJasNYmh4RHH"/>
+        <parameter name="platformName" value="Android"/>
+        <parameter name="udid" value=""/>
+        <parameter name="device" value="Google Pixel 3 XL"/>
+        <parameter name="os_version" value="9.0"/>
+        <parameter name="app" value="bs://ce886042b5ed785e51fe92aa0c0fe18bc739c94e"/>
+        <parameter name="project" value="Nagwa chat Android"/>
+        <parameter name="build" value="1"/>
+        <parameter name="name" value="first android session"/>
+        <parameter name="url" value="http://hub.browserstack.com/wd/hub"/>
+         <classes>
+             <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Invalid_UserName"/>
+             <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Empty_UserName"/>
+             <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_with_Invalid_Password">
+                 <parameter name="ValidUserName" value="6e22b"/>
+             </class>
+             <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Empty_Password">
+                 <parameter name="ValidUserName" value="6e22b"/>
+             </class>
+
+
+             <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Student"/>
+            <class name="Chat_Group_Tests.Open_Chat_group"/>
+            <class name="Send_Messages_Tests.Send_English_Text"/>
+            <class name="Send_Messages_Tests.Send_Arabic_Text"/>
+            <class name="Send_Messages_Tests.Send_Numbers"/>
+            <class name="Send_Messages_Tests.Send_MathSymbols"/>
+            <class name="Send_Audio_Tests.Send_Audio"/>
+            <class name="Send_Audio_Tests.Cancel_Audio_Record_Test"/>
+            <class name="Send_Audio_Tests.Playback_Audio_sent"/>
+            <class name="Sign_Out_Tests.Sign_Out"/>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator"/>
+            <class name="Receive_Messages_Tests.Open_Chat_group"/>
+            <class name="Receive_Messages_Tests.Receive_English_Text"/>
+            <class name="Receive_Messages_Tests.Receive_Arabic_Text"/>
+            <class name="Receive_Messages_Tests.Receive_Numbers_Text"/>
+            <class name="Receive_Messages_Tests.Receive_Math_Symbols"/>
+            <class name="Receive_Audio_Test.Receive_Audio"/>
+            <class name="Receive_Audio_Test.Playback_Audio_received"/>
+
+         </classes>
+    </test>-->
+    <!--<test name="Nagwa Chat Test ios browserstack">
+        <parameter name="browserstack.user" value="mooeloufy_4CvJso"/>
+        <parameter name="browserstack.key" value="YTcVwGBLyDjsjBySytEB"/>
+        <parameter name="platformName" value="iOS"/>
+        <parameter name="udid" value=""/>
+        <parameter name="device" value="iPhone 8"/>
+        <parameter name="os_version" value="13"/>
+        <parameter name="app" value="bs://3105e7e57a9c33662053e26807379d2a4b0677ba"/>
+        <parameter name="project" value="Nagwa chat ios"/>
+        <parameter name="build" value="1"/>
+        <parameter name="name" value="first ios session"/>
+        <parameter name="url" value="http://hub-cloud.browserstack.com/wd/hub"/>
+         <classes>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Invalid_UserName"/>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Empty_UserName"/>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Empty_Password">
+                <parameter name="ValidUserName" value="6e22b"/>
+            </class>
+             <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_with_Invalid_Password">
+                 <parameter name="ValidUserName" value="6e22b"/>
+             </class>
+              <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Student">
+                 <parameter name="ValidUserName" value="6e22b"/>
+                 <parameter name="ValidPassword" value="123456"/>
+             </class>
+        </classes>
+    </test>-->
+
+
+
+
+
+    <test name="Nagwa Chat Test android Appium">
+
+        <classes>
+            <!--<class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Invalid_UserName"/>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Empty_UserName"/>
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_With_Empty_Password">
+                <parameter name="ValidUserName" value="6e22b"/>
+            </class>
+             <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_with_Invalid_Password">
+                 <parameter name="ValidUserName" value="6e22b"/>
+             </class>-->
+            <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Student"/>
+            <!-- <class name="Chat_Group_Tests.Open_Chat_group"/>
+             <class name="Send_Messages_Tests.Send_English_Text"/>
+             <class name="Send_Messages_Tests.Send_Arabic_Text"/>
+             <class name="Send_Messages_Tests.Send_Numbers"/>
+             <class name="Send_Messages_Tests.Send_MathSymbols"/>
+             <class name="Send_Messages_Tests.Send_Emojis"/>
+             <class name="Send_Photo_Tests.Send_Single_Photo"/>
+             <class name="Send_Photo_Tests.View_Last_Photo"/>
+             <class name="Send_Audio_Tests.Send_Audio"/>
+             <class name="Send_Audio_Tests.Cancel_Audio_Record_Test"/>
+             <class name="Send_Audio_Tests.Playback_Audio_sent"/>-->
+            <class name="Sign_Out_Tests.Sign_Out"/>
+            <!--<class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator"/>
+            <class name="Receive_Messages_Tests.Open_Chat_group"/>
+            <class name="Receive_Messages_Tests.Receive_English_Text"/>
+            <class name="Receive_Messages_Tests.Receive_Arabic_Text"/>
+            <class name="Receive_Messages_Tests.Receive_Numbers_Text"/>
+            <class name="Receive_Messages_Tests.Receive_Math_Symbols"/>
+            <class name="Receive_Messages_Tests.Receive_Emojis_Text"/>
+            <class name="Receive_photo_Tests.Receive_Single_Photo"/>
+            <class name="Receive_Audio_Test.Receive_Audio"/>
+            <class name="Receive_Audio_Test.Playback_Audio_received"/>-->
+
+        </classes>
+
+    </test>
+
+
+
+
+</suite>

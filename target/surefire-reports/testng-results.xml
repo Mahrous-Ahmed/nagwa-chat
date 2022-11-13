@@ -1,0 +1,908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="72" total="118" passed="46" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-19T11:44:03 EET" name="Nagwa Chat Regression Testing " finished-at="2021-10-19T11:52:16 EET" duration-ms="492990">
+    <groups>
+    </groups>
+    <test started-at="2021-10-19T11:44:03 EET" name="Nagwa Chat Send And Receive Text" finished-at="2021-10-19T11:47:11 EET" duration-ms="188281">
+      <class name="Send_Messages_Tests.Send_English_Text">
+        <test-method signature="send_English_text(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_English_Text@4659191b]" started-at="2021-10-19T11:44:55 EET" name="send_English_text" finished-at="2021-10-19T11:45:13 EET" duration-ms="18180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GMT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_English_text -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Messages_Tests.Send_English_Text@4659191b]" started-at="2021-10-19T11:45:13 EET" name="Take_Screenshot" finished-at="2021-10-19T11:45:13 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=send_English_text status=SUCCESS method=Send_English_Text.send_English_text(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_English_Text@4659191b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Messages_Tests.Send_English_Text -->
+      <class name="Send_Messages_Tests.Send_Arabic_Text">
+        <test-method signature="send_Arabic_text(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_Arabic_Text@55634720]" started-at="2021-10-19T11:45:13 EET" name="send_Arabic_text" finished-at="2021-10-19T11:45:27 EET" duration-ms="13830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GMT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_Arabic_text -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Messages_Tests.Send_Arabic_Text@55634720]" started-at="2021-10-19T11:45:27 EET" name="Take_Screenshot" finished-at="2021-10-19T11:45:27 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=send_Arabic_text status=SUCCESS method=Send_Arabic_Text.send_Arabic_text(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_Arabic_Text@55634720] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Messages_Tests.Send_Arabic_Text -->
+      <class name="Chat_Group_Tests.Open_Chat_group">
+        <test-method signature="open_chat_group()[pri:0, instance:Chat_Group_Tests.Open_Chat_group@2dc54ad4]" started-at="2021-10-19T11:44:39 EET" name="open_chat_group" finished-at="2021-10-19T11:44:55 EET" duration-ms="15454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_chat_group -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Chat_Group_Tests.Open_Chat_group@2dc54ad4]" started-at="2021-10-19T11:44:55 EET" name="Take_Screenshot" finished-at="2021-10-19T11:44:55 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=open_chat_group status=SUCCESS method=Open_Chat_group.open_chat_group()[pri:0, instance:Chat_Group_Tests.Open_Chat_group@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Chat_Group_Tests.Open_Chat_group -->
+      <class name="Sign_Out_Tests.Sign_Out">
+        <test-method signature="Sign_Out_Nagwa_Chat()[pri:0, instance:Sign_Out_Tests.Sign_Out@29215f06]" started-at="2021-10-19T11:46:08 EET" name="Sign_Out_Nagwa_Chat" finished-at="2021-10-19T11:46:21 EET" duration-ms="12370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_Out_Nagwa_Chat -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_Out_Tests.Sign_Out@29215f06]" started-at="2021-10-19T11:46:21 EET" name="Take_Screenshot" finished-at="2021-10-19T11:46:21 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sign_Out_Nagwa_Chat status=SUCCESS method=Sign_Out.Sign_Out_Nagwa_Chat()[pri:0, instance:Sign_Out_Tests.Sign_Out@29215f06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Sign_Out_Tests.Sign_Out -->
+      <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Student">
+        <test-method signature="enter_Valid_User_Name()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@59505b48]" started-at="2021-10-19T11:46:21 EET" name="enter_Valid_User_Name" finished-at="2021-10-19T11:46:38 EET" duration-ms="17282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_User_Name -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@59505b48]" started-at="2021-10-19T11:46:38 EET" name="Take_Screenshot" finished-at="2021-10-19T11:46:38 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_User_Name status=SUCCESS method=Sign_In_Nagwa_Chat_Student.enter_Valid_User_Name()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+        <test-method signature="enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@59505b48]" started-at="2021-10-19T11:46:38 EET" name="enter_Valid_Password" finished-at="2021-10-19T11:46:47 EET" depends-on-methods="Sign_In_Tests.Sign_In_Nagwa_Chat_Student.enter_Valid_User_Name" duration-ms="8840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_Password -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@59505b48]" started-at="2021-10-19T11:46:47 EET" name="Take_Screenshot" finished-at="2021-10-19T11:46:47 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_Password status=SUCCESS method=Sign_In_Nagwa_Chat_Student.enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@59505b48] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Sign_In_Tests.Sign_In_Nagwa_Chat_Student -->
+      <class name="Receive_Messages_Tests.Receive_Numbers_Text">
+        <test-method signature="receive_Numbers_Text()[pri:0, instance:Receive_Messages_Tests.Receive_Numbers_Text@13fd2ccd]" started-at="2021-10-19T11:47:03 EET" name="receive_Numbers_Text" finished-at="2021-10-19T11:47:06 EET" duration-ms="2444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receive_Numbers_Text -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_Messages_Tests.Receive_Numbers_Text@13fd2ccd]" started-at="2021-10-19T11:47:06 EET" name="Take_Screenshot" finished-at="2021-10-19T11:47:06 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=receive_Numbers_Text status=SUCCESS method=Receive_Numbers_Text.receive_Numbers_Text()[pri:0, instance:Receive_Messages_Tests.Receive_Numbers_Text@13fd2ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_Messages_Tests.Receive_Numbers_Text -->
+      <class name="Receive_Messages_Tests.Receive_Arabic_Text">
+        <test-method signature="receive_Arabic_Text()[pri:0, instance:Receive_Messages_Tests.Receive_Arabic_Text@48aca48b]" started-at="2021-10-19T11:47:00 EET" name="receive_Arabic_Text" finished-at="2021-10-19T11:47:03 EET" duration-ms="2708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receive_Arabic_Text -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_Messages_Tests.Receive_Arabic_Text@48aca48b]" started-at="2021-10-19T11:47:03 EET" name="Take_Screenshot" finished-at="2021-10-19T11:47:03 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=receive_Arabic_Text status=SUCCESS method=Receive_Arabic_Text.receive_Arabic_Text()[pri:0, instance:Receive_Messages_Tests.Receive_Arabic_Text@48aca48b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_Messages_Tests.Receive_Arabic_Text -->
+      <class name="Receive_Messages_Tests.Receive_Emojis_Text">
+        <test-method signature="receive_Emojis_Text()[pri:0, instance:Receive_Messages_Tests.Receive_Emojis_Text@506ae4d4]" started-at="2021-10-19T11:47:08 EET" name="receive_Emojis_Text" finished-at="2021-10-19T11:47:11 EET" duration-ms="2627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receive_Emojis_Text -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_Messages_Tests.Receive_Emojis_Text@506ae4d4]" started-at="2021-10-19T11:47:11 EET" name="Take_Screenshot" finished-at="2021-10-19T11:47:11 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=receive_Emojis_Text status=SUCCESS method=Receive_Emojis_Text.receive_Emojis_Text()[pri:0, instance:Receive_Messages_Tests.Receive_Emojis_Text@506ae4d4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_Messages_Tests.Receive_Emojis_Text -->
+      <class name="Send_Messages_Tests.Send_MathSymbols">
+        <test-method signature="send_Math_Symbols(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_MathSymbols@4c1909a3]" started-at="2021-10-19T11:45:39 EET" name="send_Math_Symbols" finished-at="2021-10-19T11:45:53 EET" duration-ms="13906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GMT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_Math_Symbols -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Messages_Tests.Send_MathSymbols@4c1909a3]" started-at="2021-10-19T11:45:53 EET" name="Take_Screenshot" finished-at="2021-10-19T11:45:53 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=send_Math_Symbols status=SUCCESS method=Send_MathSymbols.send_Math_Symbols(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_MathSymbols@4c1909a3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Messages_Tests.Send_MathSymbols -->
+      <class name="Receive_Messages_Tests.Receive_English_Text">
+        <test-method signature="receive_English_Text()[pri:0, instance:Receive_Messages_Tests.Receive_English_Text@6bd61f98]" started-at="2021-10-19T11:46:58 EET" name="receive_English_Text" finished-at="2021-10-19T11:47:00 EET" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receive_English_Text -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_Messages_Tests.Receive_English_Text@6bd61f98]" started-at="2021-10-19T11:47:00 EET" name="Take_Screenshot" finished-at="2021-10-19T11:47:00 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=receive_English_Text status=SUCCESS method=Receive_English_Text.receive_English_Text()[pri:0, instance:Receive_Messages_Tests.Receive_English_Text@6bd61f98] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_Messages_Tests.Receive_English_Text -->
+      <class name="Send_Messages_Tests.Send_Emojis">
+        <test-method signature="send_Emojis_text(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_Emojis@2d710f1a]" started-at="2021-10-19T11:45:53 EET" name="send_Emojis_text" finished-at="2021-10-19T11:46:06 EET" duration-ms="13084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GMT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_Emojis_text -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Messages_Tests.Send_Emojis@2d710f1a]" started-at="2021-10-19T11:46:06 EET" name="Take_Screenshot" finished-at="2021-10-19T11:46:06 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=send_Emojis_text status=SUCCESS method=Send_Emojis.send_Emojis_text(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_Emojis@2d710f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+        <test-method signature="chatList()[pri:1, instance:Send_Messages_Tests.Send_Emojis@2d710f1a]" started-at="2021-10-19T11:46:06 EET" name="chatList" finished-at="2021-10-19T11:46:08 EET" duration-ms="2371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chatList -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Messages_Tests.Send_Emojis@2d710f1a]" started-at="2021-10-19T11:46:08 EET" name="Take_Screenshot" finished-at="2021-10-19T11:46:08 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=chatList status=SUCCESS method=Send_Emojis.chatList()[pri:1, instance:Send_Messages_Tests.Send_Emojis@2d710f1a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Messages_Tests.Send_Emojis -->
+      <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator">
+        <test-method signature="enter_Valid_Email()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@4310d43]" started-at="2021-10-19T11:44:03 EET" name="enter_Valid_Email" finished-at="2021-10-19T11:44:25 EET" duration-ms="22580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_Email -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@4310d43]" started-at="2021-10-19T11:44:26 EET" name="Take_Screenshot" finished-at="2021-10-19T11:44:26 EET" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_Email status=SUCCESS method=Sign_In_Nagwa_Chat_Educator.enter_Valid_Email()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+        <test-method signature="enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@4310d43]" started-at="2021-10-19T11:44:26 EET" name="enter_Valid_Password" finished-at="2021-10-19T11:44:39 EET" depends-on-methods="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator.enter_Valid_Email" duration-ms="13270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_Password -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@4310d43]" started-at="2021-10-19T11:44:39 EET" name="Take_Screenshot" finished-at="2021-10-19T11:44:39 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_Password status=SUCCESS method=Sign_In_Nagwa_Chat_Educator.enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@4310d43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Sign_In_Tests.Sign_In_Nagwa_Chat_Educator -->
+      <class name="Receive_Messages_Tests.Receive_Math_Symbols">
+        <test-method signature="receive_Math_Symbols()[pri:0, instance:Receive_Messages_Tests.Receive_Math_Symbols@b9b00e0]" started-at="2021-10-19T11:47:06 EET" name="receive_Math_Symbols" finished-at="2021-10-19T11:47:08 EET" duration-ms="2636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receive_Math_Symbols -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_Messages_Tests.Receive_Math_Symbols@b9b00e0]" started-at="2021-10-19T11:47:08 EET" name="Take_Screenshot" finished-at="2021-10-19T11:47:08 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=receive_Math_Symbols status=SUCCESS method=Receive_Math_Symbols.receive_Math_Symbols()[pri:0, instance:Receive_Messages_Tests.Receive_Math_Symbols@b9b00e0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_Messages_Tests.Receive_Math_Symbols -->
+      <class name="Receive_Messages_Tests.Open_Chat_group">
+        <test-method signature="open_chat_group()[pri:0, instance:Receive_Messages_Tests.Open_Chat_group@4efac082]" started-at="2021-10-19T11:46:47 EET" name="open_chat_group" finished-at="2021-10-19T11:46:58 EET" duration-ms="11169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_chat_group -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_Messages_Tests.Open_Chat_group@4efac082]" started-at="2021-10-19T11:46:58 EET" name="Take_Screenshot" finished-at="2021-10-19T11:46:58 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=open_chat_group status=SUCCESS method=Open_Chat_group.open_chat_group()[pri:0, instance:Receive_Messages_Tests.Open_Chat_group@4efac082] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_Messages_Tests.Open_Chat_group -->
+      <class name="Send_Messages_Tests.Send_Numbers">
+        <test-method signature="send_numbers(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_Numbers@4b0d79fc]" started-at="2021-10-19T11:45:27 EET" name="send_numbers" finished-at="2021-10-19T11:45:39 EET" duration-ms="12387" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GMT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_numbers -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Messages_Tests.Send_Numbers@4b0d79fc]" started-at="2021-10-19T11:45:39 EET" name="Take_Screenshot" finished-at="2021-10-19T11:45:39 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=send_numbers status=SUCCESS method=Send_Numbers.send_numbers(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_Numbers@4b0d79fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Messages_Tests.Send_Numbers -->
+    </test> <!-- Nagwa Chat Send And Receive Text -->
+    <test started-at="2021-10-19T11:47:11 EET" name="Send And Receive photos" finished-at="2021-10-19T11:48:36 EET" duration-ms="85181">
+      <class name="Receive_photo_Tests.View_Last_Photo">
+        <test-method signature="ViewPhotoInPhotoGallery()[pri:0, instance:Receive_photo_Tests.View_Last_Photo@3c77d488]" started-at="2021-10-19T11:48:28 EET" name="ViewPhotoInPhotoGallery" finished-at="2021-10-19T11:48:36 EET" duration-ms="8201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewPhotoInPhotoGallery -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_photo_Tests.View_Last_Photo@3c77d488]" started-at="2021-10-19T11:48:36 EET" name="Take_Screenshot" finished-at="2021-10-19T11:48:36 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewPhotoInPhotoGallery status=SUCCESS method=View_Last_Photo.ViewPhotoInPhotoGallery()[pri:0, instance:Receive_photo_Tests.View_Last_Photo@3c77d488] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_photo_Tests.View_Last_Photo -->
+      <class name="Send_Photo_Tests.Send_Single_Photo">
+        <test-method signature="SendPhoto(java.lang.String)[pri:0, instance:Send_Photo_Tests.Send_Single_Photo@368247b9]" started-at="2021-10-19T11:47:11 EET" name="SendPhoto" finished-at="2021-10-19T11:47:33 EET" duration-ms="21314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GMT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendPhoto -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Photo_Tests.Send_Single_Photo@368247b9]" started-at="2021-10-19T11:47:33 EET" name="Take_Screenshot" finished-at="2021-10-19T11:47:33 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SendPhoto status=SUCCESS method=Send_Single_Photo.SendPhoto(java.lang.String)[pri:0, instance:Send_Photo_Tests.Send_Single_Photo@368247b9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Photo_Tests.Send_Single_Photo -->
+      <class name="Chat_Group_Tests.Open_Chat_group">
+        <test-method signature="open_chat_group()[pri:0, instance:Chat_Group_Tests.Open_Chat_group@71ba6d4e]" started-at="2021-10-19T11:48:15 EET" name="open_chat_group" finished-at="2021-10-19T11:48:26 EET" duration-ms="11481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_chat_group -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Chat_Group_Tests.Open_Chat_group@71ba6d4e]" started-at="2021-10-19T11:48:26 EET" name="Take_Screenshot" finished-at="2021-10-19T11:48:26 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=open_chat_group status=SUCCESS method=Open_Chat_group.open_chat_group()[pri:0, instance:Chat_Group_Tests.Open_Chat_group@71ba6d4e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Chat_Group_Tests.Open_Chat_group -->
+      <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator">
+        <test-method signature="enter_Valid_Email()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@55a147cc]" started-at="2021-10-19T11:47:51 EET" name="enter_Valid_Email" finished-at="2021-10-19T11:48:06 EET" duration-ms="15409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_Email -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@55a147cc]" started-at="2021-10-19T11:48:06 EET" name="Take_Screenshot" finished-at="2021-10-19T11:48:06 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_Email status=SUCCESS method=Sign_In_Nagwa_Chat_Educator.enter_Valid_Email()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@55a147cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+        <test-method signature="enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@55a147cc]" started-at="2021-10-19T11:48:06 EET" name="enter_Valid_Password" finished-at="2021-10-19T11:48:15 EET" depends-on-methods="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator.enter_Valid_Email" duration-ms="8306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_Password -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@55a147cc]" started-at="2021-10-19T11:48:15 EET" name="Take_Screenshot" finished-at="2021-10-19T11:48:15 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_Password status=SUCCESS method=Sign_In_Nagwa_Chat_Educator.enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@55a147cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Sign_In_Tests.Sign_In_Nagwa_Chat_Educator -->
+      <class name="Receive_photo_Tests.Receive_Single_Photo">
+        <test-method signature="receivePhoto()[pri:0, instance:Receive_photo_Tests.Receive_Single_Photo@738dc9b]" started-at="2021-10-19T11:48:26 EET" name="receivePhoto" finished-at="2021-10-19T11:48:28 EET" duration-ms="1658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receivePhoto -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_photo_Tests.Receive_Single_Photo@738dc9b]" started-at="2021-10-19T11:48:28 EET" name="Take_Screenshot" finished-at="2021-10-19T11:48:28 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=receivePhoto status=SUCCESS method=Receive_Single_Photo.receivePhoto()[pri:0, instance:Receive_photo_Tests.Receive_Single_Photo@738dc9b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_photo_Tests.Receive_Single_Photo -->
+      <class name="Sign_Out_Tests.Sign_Out">
+        <test-method signature="Sign_Out_Nagwa_Chat()[pri:0, instance:Sign_Out_Tests.Sign_Out@1a942c18]" started-at="2021-10-19T11:47:40 EET" name="Sign_Out_Nagwa_Chat" finished-at="2021-10-19T11:47:51 EET" duration-ms="10803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_Out_Nagwa_Chat -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_Out_Tests.Sign_Out@1a942c18]" started-at="2021-10-19T11:47:51 EET" name="Take_Screenshot" finished-at="2021-10-19T11:47:51 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sign_Out_Nagwa_Chat status=SUCCESS method=Sign_Out.Sign_Out_Nagwa_Chat()[pri:0, instance:Sign_Out_Tests.Sign_Out@1a942c18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Sign_Out_Tests.Sign_Out -->
+      <class name="Send_Photo_Tests.View_Last_Photo">
+        <test-method signature="ViewPhotoInPhotoGallery()[pri:0, instance:Send_Photo_Tests.View_Last_Photo@1a6d8329]" started-at="2021-10-19T11:47:33 EET" name="ViewPhotoInPhotoGallery" finished-at="2021-10-19T11:47:40 EET" duration-ms="7603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewPhotoInPhotoGallery -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Photo_Tests.View_Last_Photo@1a6d8329]" started-at="2021-10-19T11:47:40 EET" name="Take_Screenshot" finished-at="2021-10-19T11:47:40 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ViewPhotoInPhotoGallery status=SUCCESS method=View_Last_Photo.ViewPhotoInPhotoGallery()[pri:0, instance:Send_Photo_Tests.View_Last_Photo@1a6d8329] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Photo_Tests.View_Last_Photo -->
+    </test> <!-- Send And Receive photos -->
+    <test started-at="2021-10-19T11:48:36 EET" name="Send And Receive Audio" finished-at="2021-10-19T11:50:27 EET" duration-ms="110538">
+      <class name="Chat_List_Tests.Open_Chat_group">
+        <test-method signature="open_chat_group()[pri:0, instance:Chat_List_Tests.Open_Chat_group@2a265ea9]" started-at="2021-10-19T11:50:10 EET" name="open_chat_group" finished-at="2021-10-19T11:50:21 EET" duration-ms="10994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_chat_group -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Chat_List_Tests.Open_Chat_group@2a265ea9]" started-at="2021-10-19T11:50:21 EET" name="Take_Screenshot" finished-at="2021-10-19T11:50:21 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=open_chat_group status=SUCCESS method=Open_Chat_group.open_chat_group()[pri:0, instance:Chat_List_Tests.Open_Chat_group@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Chat_List_Tests.Open_Chat_group -->
+      <class name="Chat_Group_Tests.Open_Chat_group">
+        <test-method signature="open_chat_group()[pri:0, instance:Chat_Group_Tests.Open_Chat_group@f78a47e]" started-at="2021-10-19T11:48:36 EET" name="open_chat_group" finished-at="2021-10-19T11:48:52 EET" duration-ms="15352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_chat_group -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Chat_Group_Tests.Open_Chat_group@f78a47e]" started-at="2021-10-19T11:48:52 EET" name="Take_Screenshot" finished-at="2021-10-19T11:48:52 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=open_chat_group status=SUCCESS method=Open_Chat_group.open_chat_group()[pri:0, instance:Chat_Group_Tests.Open_Chat_group@f78a47e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Chat_Group_Tests.Open_Chat_group -->
+      <class name="Send_Audio_Tests.Cancel_Audio_Record_Test">
+        <test-method signature="cancel_recording()[pri:0, instance:Send_Audio_Tests.Cancel_Audio_Record_Test@7526515b]" started-at="2021-10-19T11:49:13 EET" name="cancel_recording" finished-at="2021-10-19T11:49:27 EET" duration-ms="13654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cancel_recording -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Audio_Tests.Cancel_Audio_Record_Test@7526515b]" started-at="2021-10-19T11:49:27 EET" name="Take_Screenshot" finished-at="2021-10-19T11:49:27 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cancel_recording status=SUCCESS method=Cancel_Audio_Record_Test.cancel_recording()[pri:0, instance:Send_Audio_Tests.Cancel_Audio_Record_Test@7526515b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Audio_Tests.Cancel_Audio_Record_Test -->
+      <class name="Send_Audio_Tests.Playback_Audio_sent">
+        <test-method signature="playAudio()[pri:0, instance:Send_Audio_Tests.Playback_Audio_sent@1ed4ae0f]" started-at="2021-10-19T11:49:27 EET" name="playAudio" finished-at="2021-10-19T11:49:32 EET" duration-ms="5274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playAudio -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Audio_Tests.Playback_Audio_sent@1ed4ae0f]" started-at="2021-10-19T11:49:32 EET" name="Take_Screenshot" finished-at="2021-10-19T11:49:32 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playAudio status=SUCCESS method=Playback_Audio_sent.playAudio()[pri:0, instance:Send_Audio_Tests.Playback_Audio_sent@1ed4ae0f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Audio_Tests.Playback_Audio_sent -->
+      <class name="Receive_Audio_Test.Playback_Audio_received">
+        <test-method signature="playAudio()[pri:0, instance:Receive_Audio_Test.Playback_Audio_received@6892b3b6]" started-at="2021-10-19T11:50:22 EET" name="playAudio" finished-at="2021-10-19T11:50:27 EET" duration-ms="4518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playAudio -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_Audio_Test.Playback_Audio_received@6892b3b6]" started-at="2021-10-19T11:50:27 EET" name="Take_Screenshot" finished-at="2021-10-19T11:50:27 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playAudio status=SUCCESS method=Playback_Audio_received.playAudio()[pri:0, instance:Receive_Audio_Test.Playback_Audio_received@6892b3b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_Audio_Test.Playback_Audio_received -->
+      <class name="Send_Audio_Tests.Send_Audio">
+        <test-method signature="send_Audio(java.lang.String)[pri:0, instance:Send_Audio_Tests.Send_Audio@644baf4a]" started-at="2021-10-19T11:48:52 EET" name="send_Audio" finished-at="2021-10-19T11:49:13 EET" duration-ms="21324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GMT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_Audio -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Audio_Tests.Send_Audio@644baf4a]" started-at="2021-10-19T11:49:13 EET" name="Take_Screenshot" finished-at="2021-10-19T11:49:13 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=send_Audio status=SUCCESS method=Send_Audio.send_Audio(java.lang.String)[pri:0, instance:Send_Audio_Tests.Send_Audio@644baf4a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Audio_Tests.Send_Audio -->
+      <class name="Sign_Out_Tests.Sign_Out">
+        <test-method signature="Sign_Out_Nagwa_Chat()[pri:0, instance:Sign_Out_Tests.Sign_Out@54c5a2ff]" started-at="2021-10-19T11:49:32 EET" name="Sign_Out_Nagwa_Chat" finished-at="2021-10-19T11:49:43 EET" duration-ms="11107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_Out_Nagwa_Chat -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_Out_Tests.Sign_Out@54c5a2ff]" started-at="2021-10-19T11:49:43 EET" name="Take_Screenshot" finished-at="2021-10-19T11:49:43 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sign_Out_Nagwa_Chat status=SUCCESS method=Sign_Out.Sign_Out_Nagwa_Chat()[pri:0, instance:Sign_Out_Tests.Sign_Out@54c5a2ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Sign_Out_Tests.Sign_Out -->
+      <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Student">
+        <test-method signature="enter_Valid_User_Name()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@6d4d66d2]" started-at="2021-10-19T11:49:43 EET" name="enter_Valid_User_Name" finished-at="2021-10-19T11:50:00 EET" duration-ms="16693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_User_Name -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@6d4d66d2]" started-at="2021-10-19T11:50:00 EET" name="Take_Screenshot" finished-at="2021-10-19T11:50:00 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_User_Name status=SUCCESS method=Sign_In_Nagwa_Chat_Student.enter_Valid_User_Name()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+        <test-method signature="enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@6d4d66d2]" started-at="2021-10-19T11:50:00 EET" name="enter_Valid_Password" finished-at="2021-10-19T11:50:09 EET" depends-on-methods="Sign_In_Tests.Sign_In_Nagwa_Chat_Student.enter_Valid_User_Name" duration-ms="9405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_Password -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@6d4d66d2]" started-at="2021-10-19T11:50:10 EET" name="Take_Screenshot" finished-at="2021-10-19T11:50:10 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_Password status=SUCCESS method=Sign_In_Nagwa_Chat_Student.enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Student@6d4d66d2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Sign_In_Tests.Sign_In_Nagwa_Chat_Student -->
+      <class name="Receive_Audio_Test.Receive_Audio">
+        <test-method signature="receiveAudio()[pri:0, instance:Receive_Audio_Test.Receive_Audio@11392934]" started-at="2021-10-19T11:50:21 EET" name="receiveAudio" finished-at="2021-10-19T11:50:22 EET" duration-ms="1767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveAudio -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Receive_Audio_Test.Receive_Audio@11392934]" started-at="2021-10-19T11:50:22 EET" name="Take_Screenshot" finished-at="2021-10-19T11:50:22 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=receiveAudio status=SUCCESS method=Receive_Audio.receiveAudio()[pri:0, instance:Receive_Audio_Test.Receive_Audio@11392934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Receive_Audio_Test.Receive_Audio -->
+    </test> <!-- Send And Receive Audio -->
+    <test started-at="2021-10-19T11:50:27 EET" name="delete feature" finished-at="2021-10-19T11:52:16 EET" duration-ms="108481">
+      <class name="Send_Messages_Tests.Send_English_Text">
+        <test-method signature="send_English_text(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_English_Text@8f2ef19]" started-at="2021-10-19T11:50:39 EET" name="send_English_text" finished-at="2021-10-19T11:50:58 EET" duration-ms="19838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GMT]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- send_English_text -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Send_Messages_Tests.Send_English_Text@8f2ef19]" started-at="2021-10-19T11:50:58 EET" name="Take_Screenshot" finished-at="2021-10-19T11:50:58 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=send_English_text status=SUCCESS method=Send_English_Text.send_English_text(java.lang.String)[pri:0, instance:Send_Messages_Tests.Send_English_Text@8f2ef19] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Send_Messages_Tests.Send_English_Text -->
+      <class name="Delete_Tests.Delete_Audio">
+        <test-method signature="User_Delete_Audio_Message()[pri:0, instance:Delete_Tests.Delete_Audio@74ea2410]" started-at="2021-10-19T11:52:07 EET" name="User_Delete_Audio_Message" finished-at="2021-10-19T11:52:16 EET" duration-ms="8956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Delete_Audio_Message -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Delete_Tests.Delete_Audio@74ea2410]" started-at="2021-10-19T11:52:16 EET" name="Take_Screenshot" finished-at="2021-10-19T11:52:16 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User_Delete_Audio_Message status=SUCCESS method=Delete_Audio.User_Delete_Audio_Message()[pri:0, instance:Delete_Tests.Delete_Audio@74ea2410] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Delete_Tests.Delete_Audio -->
+      <class name="Chat_List_Tests.Open_Chat_group">
+        <test-method signature="open_chat_group()[pri:0, instance:Chat_List_Tests.Open_Chat_group@173ed316]" started-at="2021-10-19T11:51:52 EET" name="open_chat_group" finished-at="2021-10-19T11:52:03 EET" duration-ms="11139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_chat_group -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Chat_List_Tests.Open_Chat_group@173ed316]" started-at="2021-10-19T11:52:03 EET" name="Take_Screenshot" finished-at="2021-10-19T11:52:03 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=open_chat_group status=SUCCESS method=Open_Chat_group.open_chat_group()[pri:0, instance:Chat_List_Tests.Open_Chat_group@173ed316] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Chat_List_Tests.Open_Chat_group -->
+      <class name="Delete_Tests.CheckDeleteText">
+        <test-method signature="check_Delete_messages()[pri:0, instance:Delete_Tests.CheckDeleteText@25ce9dc4]" started-at="2021-10-19T11:52:03 EET" name="check_Delete_messages" finished-at="2021-10-19T11:52:07 EET" duration-ms="3519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Delete_messages -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Delete_Tests.CheckDeleteText@25ce9dc4]" started-at="2021-10-19T11:52:07 EET" name="Take_Screenshot" finished-at="2021-10-19T11:52:07 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=check_Delete_messages status=SUCCESS method=CheckDeleteText.check_Delete_messages()[pri:0, instance:Delete_Tests.CheckDeleteText@25ce9dc4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Delete_Tests.CheckDeleteText -->
+      <class name="Chat_Group_Tests.Open_Chat_group">
+        <test-method is-config="true" signature="Start_Nagwa_Chat_App(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Chat_Group_Tests.Open_Chat_group@2eae8e6e]" started-at="2021-10-19T11:43:35 EET" name="Start_Nagwa_Chat_App" description="Open Nagwa chat app" finished-at="2021-10-19T11:44:03 EET" duration-ms="27713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nagwalimited_jARDop]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[x7cx1kH9TJasNYmh4RHH]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Google Pixel 3 XL]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[bs://423448fd9d646a134d293a57612f6e3c485aa73d]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Nagwa Chat]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Nagwa chat regression]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Local_Chat]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[http://hub.browserstack.com/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start_Nagwa_Chat_App -->
+        <test-method signature="open_chat_group()[pri:0, instance:Chat_Group_Tests.Open_Chat_group@2eae8e6e]" started-at="2021-10-19T11:50:27 EET" name="open_chat_group" finished-at="2021-10-19T11:50:39 EET" duration-ms="11340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open_chat_group -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Chat_Group_Tests.Open_Chat_group@2eae8e6e]" started-at="2021-10-19T11:50:39 EET" name="Take_Screenshot" finished-at="2021-10-19T11:50:39 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=open_chat_group status=SUCCESS method=Open_Chat_group.open_chat_group()[pri:0, instance:Chat_Group_Tests.Open_Chat_group@2eae8e6e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+        <test-method is-config="true" signature="close_App()[pri:0, instance:Chat_Group_Tests.Open_Chat_group@2eae8e6e]" started-at="2021-10-19T11:52:16 EET" name="close_App" finished-at="2021-10-19T11:52:17 EET" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_App -->
+      </class> <!-- Chat_Group_Tests.Open_Chat_group -->
+      <class name="Delete_Tests.Delete_Image">
+        <test-method signature="User_Delete_Photo_Message()[pri:0, instance:Delete_Tests.Delete_Image@2cf3d63b]" started-at="2021-10-19T11:51:06 EET" name="User_Delete_Photo_Message" finished-at="2021-10-19T11:51:15 EET" duration-ms="8981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Delete_Photo_Message -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Delete_Tests.Delete_Image@2cf3d63b]" started-at="2021-10-19T11:51:15 EET" name="Take_Screenshot" finished-at="2021-10-19T11:51:15 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User_Delete_Photo_Message status=SUCCESS method=Delete_Image.User_Delete_Photo_Message()[pri:0, instance:Delete_Tests.Delete_Image@2cf3d63b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Delete_Tests.Delete_Image -->
+      <class name="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator">
+        <test-method signature="enter_Valid_Email()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@69e153c5]" started-at="2021-10-19T11:51:27 EET" name="enter_Valid_Email" finished-at="2021-10-19T11:51:42 EET" duration-ms="15432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_Email -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@69e153c5]" started-at="2021-10-19T11:51:42 EET" name="Take_Screenshot" finished-at="2021-10-19T11:51:42 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_Email status=SUCCESS method=Sign_In_Nagwa_Chat_Educator.enter_Valid_Email()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@69e153c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+        <test-method signature="enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@69e153c5]" started-at="2021-10-19T11:51:42 EET" name="enter_Valid_Password" finished-at="2021-10-19T11:51:52 EET" depends-on-methods="Sign_In_Tests.Sign_In_Nagwa_Chat_Educator.enter_Valid_Email" duration-ms="10061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_Valid_Password -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@69e153c5]" started-at="2021-10-19T11:51:52 EET" name="Take_Screenshot" finished-at="2021-10-19T11:51:52 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=enter_Valid_Password status=SUCCESS method=Sign_In_Nagwa_Chat_Educator.enter_Valid_Password()[pri:0, instance:Sign_In_Tests.Sign_In_Nagwa_Chat_Educator@69e153c5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Sign_In_Tests.Sign_In_Nagwa_Chat_Educator -->
+      <class name="Sign_Out_Tests.Sign_Out">
+        <test-method signature="Sign_Out_Nagwa_Chat()[pri:0, instance:Sign_Out_Tests.Sign_Out@7674f035]" started-at="2021-10-19T11:51:15 EET" name="Sign_Out_Nagwa_Chat" finished-at="2021-10-19T11:51:27 EET" duration-ms="11040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sign_Out_Nagwa_Chat -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Sign_Out_Tests.Sign_Out@7674f035]" started-at="2021-10-19T11:51:27 EET" name="Take_Screenshot" finished-at="2021-10-19T11:51:27 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Sign_Out_Nagwa_Chat status=SUCCESS method=Sign_Out.Sign_Out_Nagwa_Chat()[pri:0, instance:Sign_Out_Tests.Sign_Out@7674f035] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Sign_Out_Tests.Sign_Out -->
+      <class name="Delete_Tests.Delete_Text">
+        <test-method signature="User_Delete_Text_Message()[pri:0, instance:Delete_Tests.Delete_Text@470734c3]" started-at="2021-10-19T11:50:58 EET" name="User_Delete_Text_Message" finished-at="2021-10-19T11:51:06 EET" duration-ms="8119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Delete_Text_Message -->
+        <test-method is-config="true" signature="Take_Screenshot(org.testng.ITestResult)[pri:0, instance:Delete_Tests.Delete_Text@470734c3]" started-at="2021-10-19T11:51:06 EET" name="Take_Screenshot" finished-at="2021-10-19T11:51:06 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=User_Delete_Text_Message status=SUCCESS method=Delete_Text.User_Delete_Text_Message()[pri:0, instance:Delete_Tests.Delete_Text@470734c3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Take_Screenshot -->
+      </class> <!-- Delete_Tests.Delete_Text -->
+    </test> <!-- delete feature -->
+  </suite> <!-- Nagwa Chat Regression Testing  -->
+</testng-results>
